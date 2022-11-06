@@ -1,0 +1,252 @@
+.welcome__dialog {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    position: relative;
+}
+.welcome__ze-1 {
+    width: 300px;
+    position: relative;
+    top: 40px;
+}
+.cloud-message {
+    position: relative;
+    top: 80px;
+}
+.cloud-message__message {
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    top: 150px;
+    transform: translateX(-40%);
+}
+.cloud-message__title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+.cloud-message__text {
+    text-align: center;
+    font-size: 26px;
+}
+.cloud-pink {
+    background: url('../media/cloud-pink.svg') center / cover no-repeat;
+    height: 15vw;
+    padding-top: 50px;
+    position: relative;
+}
+.citata {
+    margin-left: 55%;
+    font-size: 22px;
+    max-width: 520px;;
+}
+.citata * {
+    color: #BD4256;
+}
+.citata__text {
+    padding-left: 20px;
+    
+    border-left: 5px solid #BD4256;
+}
+.citata__author {
+    margin-top: 16px;
+    text-align: right;
+}
+.butterfly {
+    position: absolute;
+}
+.butterfly_1 {
+    width: 72px;
+    height: 72px;
+    left: 77px;
+    top: 36px;
+}
+.butterfly_2 {
+    width: 87px;
+    height: 87px;
+    left: 200px;
+    top: 52px;
+}
+.butterfly_3 {
+    width: 108px;
+    height: 108px;
+    left: 650px;
+    top: -40px;
+}
+.butterfly_4 {
+    width: 128px;
+    height: 128px;
+    left: -50px;
+    bottom: 50px;
+}
+.butterfly_5 {
+    width: 87px;
+    height: 87px;
+    left: 60%;
+    bottom: 45%;
+}
+.butterfly_6 {
+    width: 87px;
+    height: 87px;
+    right: 100px;
+    top: 50px;
+}
+.butterfly_pink path {
+    fill: #FFB8C6;
+}
+.butterfly_green path {
+    fill: #61CD90;
+}
+.about-cloud-message {
+    display: inline-block;
+    position: relative;
+}
+.about-cloud-message__text {
+    max-width: 500px;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-70%, -70%);
+}
+.about__dialog {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.about__ze-2 {
+    position: relative;
+}
+.about__evgeniya-pict {
+    width: 300px;
+}
+.about__cloud {
+    width: 600px;
+    height: 600px;
+    background: url('../media/cloud-green.svg') bottom / contain no-repeat;
+
+    position: absolute;
+    bottom: -80px;
+    right: -300px;
+}
+.about__cards {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 30%));
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.about-card {
+    background: white;
+    border-radius: 25px;
+    padding: 40px;
+}
+.about-card__title {
+    color: var(--orange);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 16px;
+}
+.about-card__info {
+    color: var(--dark);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.swiper {
+    height: 300px;
+    width: 100%;
+}
+.about__media {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(30px);
+}
+.about__pict {
+    object-fit: contain;
+}
+.swiper-pagination-bullet {
+    background: white;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    background: var(--orange);
+}
+.about__photos-row {
+    display: flex;
+}
+.about__photos-row_1 {
+    margin-bottom: 2.6%;
+}
+.about__photo {
+    height: 380px;
+    margin-right: 2.6%;
+    outline: 10px solid var(--orange);
+    border-radius: 5px;
+}
+.about__photos-row_1>.about__photo:nth-child(1) {
+    width: 39.5%;
+}
+.about__photos-row_1>.about__photo:nth-child(2) {
+    width: 37.3%;
+}
+.about__photos-row_1>.about__photo:nth-child(3) {
+    width: 17.59%;
+    margin-right: 0;
+}
+.about__photos-row_2>.about__photo:nth-child(1) {
+    width: 17.4%;
+}
+.about__photos-row_2>.about__photo:nth-child(2) {
+    width: 31.23%;
+}
+.about__photos-row_2>.about__photo:nth-child(3) {
+    width: 17.65%;
+}
+.about__photos-row_2>.about__photo:nth-child(4) {
+    width: 25.37%;
+    margin-right: 0;
+}
+.video__clouds {
+    position: relative;
+    height: 800px;
+    width: 100%;
+}
+.video-cloud {
+    width: 50%;
+    position: absolute;
+}
+.video-cloud_1 {
+    top: 0;
+    left: 0;
+}
+.video-cloud_2 {
+    top: 200px;
+    right: 0;
+}
+.video-cloud_3 {
+    top: 500px;
+    left: 50px;
+}
+.video-cloud__video {
+    position: absolute;
+    width: 350px;
+    height: 220px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.video-cloud__cloud {
+    width: 100%;
+}
+.achievs-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    gap: 50px;
+    justify-content: center;
+}
+.achiev {
+    height: 250px;
+}
