@@ -97,9 +97,15 @@
 .butterfly_green path {
     fill: #61CD90;
 }
+.about__dialog {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 100px;
+}
 .about-cloud-message {
     display: inline-block;
     position: relative;
+    left: 100px;
 }
 .about-cloud-message__text {
     max-width: 500px;
@@ -109,25 +115,22 @@
     left: 50%;
     transform: translate(-70%, -70%);
 }
-.about__dialog {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
-}
 .about__ze-2 {
     position: relative;
 }
 .about__evgeniya-pict {
     width: 300px;
+
+    position: absolute;
+    left: 100px;
 }
 .about__cloud {
     width: 600px;
     height: 600px;
     background: url('../media/cloud-green.svg') bottom / contain no-repeat;
-
-    position: absolute;
-    bottom: -80px;
-    right: -300px;
+    position: relative;
+    bottom: -100px;
+    z-index: 2;
 }
 .about__cards {
     display: grid;
