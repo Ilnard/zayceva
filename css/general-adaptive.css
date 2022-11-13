@@ -1,0 +1,130 @@
+@media screen and (max-width: 1400px) {
+    .container {
+        padding: 0 100px;
+    }
+    .welcome {
+        overflow: visible;
+    }
+    .cloud-pink {
+        padding-top: 30px;
+    }
+    .citata {
+        margin-left: 0;
+        font-size: 16px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        max-width: 350px;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .about-card__title {
+        font-size: 22px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .about__dialog {
+        margin-right: -200px;
+    }
+    .contact__top {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__form {
+        top: -120px;
+        max-width: 500px;
+    }
+    .contact__bottom {
+        margin-top: -900px;
+        height: 1000px;
+        background-size: cover;
+        background-position: top;
+    }
+    .contact__bottom-inner {
+        display: flex;
+        justify-content: center;
+    }
+    .contact__bottom-content {
+        margin-top: 700px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .about-cloud-message__text {
+        font-size: 16px;
+    }
+    .about-cloud-message__cloud {
+        width: 600px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .welcome__ze-1 {
+        width: 200px;
+    }
+    .cloud-message {
+        top: 30px;
+    }
+    .cloud-message__message {
+        left: 45%;
+    }
+    .cloud-message__message * {
+        font-size: 22px;
+    }
+    .cloud-message__title {
+        margin-bottom: 15px;
+    }
+    .cloud-message__text * {
+        font-size: 18px;
+    }
+    .cloud-message__cloud {
+        width: 400px;
+    }
+    .about__dialog {
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .about__evgeniya-pict {
+        width: 150px;
+        left: 70px;
+        top: 50px;
+    }
+    .about__cloud {
+        width: 300px;
+        height: 300px;
+    }
+    .about-cloud-message {
+        left: 50px;
+        top: -50px;
+    }
+    .about-cloud-message__text {
+        font-size: 12px;
+        top: 55%;
+    }
+    .about-cloud-message__cloud {
+        width: 500px;
+    }
+    .video__clouds {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    .video-cloud {
+        width: 500px;
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-bottom: 40px;
+    }
+    .video-cloud:last-child {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 950px) {
+    .cloud-pink {
+        padding-top: 60px;
+        height: 200px;
+    }
+    .citata {
+
+    }
+}
