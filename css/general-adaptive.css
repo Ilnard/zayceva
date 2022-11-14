@@ -64,7 +64,9 @@
         top: 30px;
     }
     .cloud-message__message {
-        left: 45%;
+        left: 50%;
+        top: 170px;
+        width: 300px;
     }
     .cloud-message__message * {
         font-size: 22px;
@@ -124,7 +126,63 @@
         padding-top: 60px;
         height: 200px;
     }
-    .citata {
-
+}
+@media screen and (max-width: 880px) {
+    .container {
+        padding: 0 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header__inner {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .nav {
+        display: none;
+        flex-direction: column;
+        background: white;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 9999;
+    }
+    .nav__link {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .nav__link:last-child {
+        margin-bottom: 0;
+    }
+    .burger-icon {
+        display: block;
+    }
+}
+@media screen and (max-width: 725px) {
+    .about__dialog {
+        margin-right: -100px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .contact__evgeniya-pict {
+        width: 300px;
+    }
+    .contact__form {
+        top: -20px;
+    }
+    .contact__bottom {
+        margin-top: -800px;
+    }
+    .contact-cloud-message {
+        margin-left: -70px;
+    }
+    .contact-cloud-message__text {
+        font-size: 16px;
+        left: 74%;
+    }
+    .contact-cloud-message__cloud {
+        width: 300px;
     }
 }

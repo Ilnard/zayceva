@@ -132,6 +132,9 @@ section {
 .nav__link:nth-child(5):hover {
     text-shadow: 0px 8px 8px #ff5e00;
 }
+.burger-icon {
+    display: none;
+}
 .media {
     position: relative;
 }
