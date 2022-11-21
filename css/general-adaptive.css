@@ -186,3 +186,164 @@
         width: 300px;
     }
 }
+@media screen and (max-width: 650px) {
+    .welcome__dialog {
+        padding-top: 0;
+    }
+    .cloud-message {
+        margin-left: -90px;
+        top: -10px;
+    }
+    .cloud-message__message {
+        width: 150px;
+        top: 180px;
+    }
+    .cloud-message__cloud {
+        width: 200px;
+    }
+    .cloud-message__title {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    .cloud-message__text, .cloud-message__text * {
+        font-size: 14px;
+    }
+    .about-cloud-message__cloud {
+        width: 400px;
+    }
+    .about-cloud-message__text {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .container {
+        padding: 0 10px;
+    }
+    .title {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    .about__dialog {
+        margin-right: -20px;
+    }
+    .about-cloud-message {
+        margin-right: -35px;
+        top: -40px;
+        z-index: 2;
+    }
+    .about-cloud-message__text {
+        font-size: 7px;
+        top: 60%;
+    }
+    .about-cloud-message__cloud {
+        width: 250px;
+        height: 250px;
+    }
+    .about__evgeniya-pict {
+        width: 90px;
+        left: 63px;
+        top: -6px;
+    }
+    .about__cloud {
+        width: 180px;
+        height: 180px;
+        bottom: -26px;
+    }
+    .video-cloud {
+        width: 300px;
+    }
+    .video-cloud__video {
+        width: 200px;
+        height: 150px;
+    }
+    .contact__dialog {
+        margin-right: 20px;
+    }
+    .contact-cloud-message {
+        margin-left: -90px;
+        margin-top: -50px;
+    }
+    .contact__evgeniya-pict {
+        width: 200px;
+    }
+    .contact-cloud-message__text {
+        font-size: 12px;
+        left: 90%;
+    }
+    .contact-cloud-message__cloud {
+        width: 200px;
+    }
+    .contact__bottom {
+        margin-top: -650px;
+    }
+    .contact__form {
+        padding: 40px;
+        top: -20px;
+    }
+    .contact-field {
+        margin-bottom: 10px;
+    }
+    .contact-field__textarea {
+        height: 130px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .contact__bottom {
+        height: 800px;
+    }
+    .contact__bottom-content {
+        margin-top: 540px;
+    }
+    .contact__title {
+        font-size: 16px;
+    }
+    .contact__socials {
+        display: flex;
+        justify-content: center;
+    }
+    .contact__link {
+        width: 70px;
+        height: 70px;
+        margin-right: 10px;
+    }
+    .contact__link:last-child {
+        margin-right: 0;
+    }
+    .contact__icon {
+        width: 50px;
+        height: 50px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .citata {
+        font-size: 14px;
+        max-width: 300px;
+    }
+    .contact__flower_1 {
+        width: 50px;
+    }
+    .contact__flower_2 {
+        width: 40px;
+        left: -25px;
+        top: 40px;
+    }
+    .contact__bottom {
+        margin-top: -550px;
+    }
+    .contact__form {
+        padding: 20px;
+        top: -20px;
+    }
+    .contact-field {
+        margin-bottom: 10px;
+    }
+    .contact-field__input {
+        width: 250px;
+    }
+    .contact-field__textarea {
+        height: 80px;
+    }
+    .contact-field__submit {
+        height: 40px;
+    }
+}

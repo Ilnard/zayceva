@@ -1,0 +1,42 @@
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.product {
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    padding: 80px 20px 0;
+    cursor: pointer;
+}
+.product_maze {
+    background: url('../media/bag-svg/maze.svg') bottom / 100% no-repeat, linear-gradient(180.11deg, #FFFFFF 42.13%, #FCA14B 99.91%);
+}
+.product_stairs {
+    background: url('../media/bag-svg/stairs.svg') bottom / 100% no-repeat, linear-gradient(180.11deg, #FFFFFF 42.13%, #79F4AF 99.91%);
+}
+.product_numbers {
+    background: url('../media/bag-svg/numbers.svg') bottom / 100% no-repeat, linear-gradient(180.11deg, #FFFFFF 42.13%, #EB536B 99.91%);
+}
+.product__name {
+    font-size: 22px;
+}
+.freetime__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 13px;
+}
+.freetime__name {
+    font-size: 22px;
+}
+.freetime__button {
+    padding: 10px 7px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    background: var(--orange);
+}
