@@ -68,4 +68,5 @@
     color: white;
     font-size: 18px;
     background: var(--orange);
+    text-transform: uppercase;
 }
