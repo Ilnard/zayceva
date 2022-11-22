@@ -250,6 +250,9 @@ section {
     margin-right: 0;
 }
 .contact__icon {
+    display: inline;
+    text-align: center;
+    font-size: 20px;
     width: 80px;
     position: absolute;
     left: 50%;
