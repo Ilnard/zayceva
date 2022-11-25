@@ -22,4 +22,22 @@ const swiper = new Swiper('.swiper', {
         slidesPerView: '3.5'
       }
     }
-  });
+});
+
+const viewerPicts = document.querySelectorAll('.viewer__accept');
+const viewer = document.querySelector('.viewer');
+const viewerPict = document.querySelector('.viewer__pict');
+const viewerClose = document.querySelector('.viewer__close');
+const body = document.getElementsByTagName('body')[0];
+
+viewerPicts.forEach(viewerPictsItem => {
+  viewerPictsItem.addEventListener('click', () => {
+    viewer.classList.add('viewer_active');
+    viewerPict.src = viewerPictsItem.src;
+    body.style.overflow = 'hidden';
+  })
+})
+viewerClose.addEventListener('click', () => {
+  viewer.classList.remove('viewer_active');
+  body.style.overflow = 'visible';
+})

@@ -133,6 +133,11 @@
     }
 }
 @media screen and (max-width: 768px) {
+    .header {
+        width: 100%;
+        position: fixed;
+        z-index: 9999; 
+    }
     .header__inner {
         display: flex;
         justify-content: flex-end;
@@ -147,7 +152,10 @@
         top: 0;
         width: 100vw;
         height: 100vh;
-        z-index: 9999;
+        z-index: 9998;
+    }
+    .nav_active {
+        display: flex;
     }
     .nav__link {
         margin-right: 0;
@@ -158,6 +166,45 @@
     }
     .burger-icon {
         display: block;
+        width: 32px;
+        height: 32px;
+        position: relative;
+        z-index: 9999;
+    }
+    .burger-icon__line {
+        width: 100%;
+        height: 3px;
+        border-radius: 50px;
+        background: black;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        transition: opacity .1s ease, transform .1s ease;
+    }
+    .burger-icon__line::before, .burger-icon__line::after {
+        content: '';
+        width: 32px;
+        height: 3px;
+        border-radius: 50px;
+        background: black;
+        position: absolute;
+        transition: opacity .1s ease;
+    }
+    .burger-icon__line::before {
+        bottom: 10px;
+    }
+    .burger-icon__line::after {
+        top: 10px;
+    }
+    .burger-icon_close > .burger-icon__line::before {
+        opacity: 0;
+    }
+    .burger-icon_close > .burger-icon__line {
+        transform: rotate(45deg);
+    }
+    .burger-icon_close > .burger-icon__line::after {
+        transform: rotate(-90deg);
+        top: 0;
     }
 }
 @media screen and (max-width: 725px) {

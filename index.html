@@ -13,7 +13,15 @@
     <title>Главная</title>
 </head>
 
-<body>
+<body style="overflow: visible;">
+
+    <div class="viewer">
+        <svg class="viewer__close" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.18627 24.8137L24.8137 2.18629M24.8137 24.8137L2.18627 2.18629" stroke="black" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+            
+        <img src="" alt="" class="viewer__pict">
+    </div>
     <header class="header">
         <div class="container">
             <div class="section__inner header__inner">
@@ -24,9 +32,9 @@
                     <a href="colleague.html" class="nav__link">Коллегам</a>
                     <a href="mybag.html" class="nav__link">Мой рюкзак</a>
                 </nav>
-                <svg class="burger-icon" width="32" height="19" viewBox="0 0 32 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1.5 1.5H30.5M1.5 9.5H30.5M1.5 17.5H30.5" stroke="black" stroke-width="3" stroke-linecap="round"/>
-                </svg>
+                <div class="burger-icon">
+                    <div class="burger-icon__line"></div>
+                </div>
                     
             </div>
         </div>
@@ -125,27 +133,27 @@
             <div class="swiper-wrapper">
                 <div style="background: url('img/photos/1.jpg') center / cover no-repeat" class="swiper-slide">
                     <div class="media about__media">
-                        <img src="img/photos/1.jpg" alt="" class="media__pict about__pict">
+                        <img src="img/photos/1.jpg" alt="" class="media__pict about__pict viewer__accept">
                     </div>
                 </div>
                 <div style="background: url('img/photos/2.jpg') center / cover no-repeat" class="swiper-slide">
                     <div class="media about__media">
-                        <img src="img/photos/2.jpg" alt="" class="media__pict about__pict">
+                        <img src="img/photos/2.jpg" alt="" class="media__pict about__pict viewer__accept">
                     </div>
                 </div>
                 <div style="background: url('img/photos/3.jpg') center / cover no-repeat" class="swiper-slide">
                     <div class="media about__media">
-                        <img src="img/photos/3.jpg" alt="" class="media__pict about__pict">
+                        <img src="img/photos/3.jpg" alt="" class="media__pict about__pict viewer__accept">
                     </div>
                 </div>
                 <div style="background: url('img/photos/4.jpg') center / cover no-repeat" class="swiper-slide">
                     <div class="media about__media">
-                        <img src="img/photos/4.jpg" alt="" class="media__pict about__pict">
+                        <img src="img/photos/4.jpg" alt="" class="media__pict about__pict viewer__accept">
                     </div>
                 </div>
                 <div style="background: url('img/photos/5.jpg') center / cover no-repeat" class="swiper-slide">
                     <div class="media about__media">
-                        <img src="img/photos/5.jpg" alt="" class="media__pict about__pict">
+                        <img src="img/photos/5.jpg" alt="" class="media__pict about__pict viewer__accept">
                     </div>
                 </div>
             </div>
@@ -280,34 +288,34 @@
                 <h2 class="title">Мои достижения</h2>
                 <div class="achievs-gallery">
                     <div class="media achiev">
-                        <img src="img/achievs/Rectangle 19.png" alt="" class="media__pict achiev__pict">
+                        <img src="img/achievs/Rectangle 19.png" alt="" class="media__pict achiev__pict viewer__accept">
                     </div>
                     <div class="media achiev">
-                        <img src="img/achievs/Rectangle 23.png" alt="" class="media__pict achiev__pict">
+                        <img src="img/achievs/Rectangle 23.png" alt="" class="media__pict achiev__pict viewer__accept">
                     </div>
                     <div class="media achiev">
-                        <img src="img/achievs/Rectangle 24.png" alt="" class="media__pict achiev__pict">
+                        <img src="img/achievs/Rectangle 24.png" alt="" class="media__pict achiev__pict viewer__accept">
                     </div>
                     <div class="media achiev">
-                        <img src="img/achievs/Rectangle 25.png" alt="" class="media__pict achiev__pict">
+                        <img src="img/achievs/Rectangle 25.png" alt="" class="media__pict achiev__pict viewer__accept">
                     </div>
                     <div class="media achiev">
-                        <img src="img/achievs/Rectangle 26.png" alt="" class="media__pict achiev__pict">
+                        <img src="img/achievs/Rectangle 26.png" alt="" class="media__pict achiev__pict viewer__accept">
                     </div>
                     <div class="media achiev">
-                        <img src="img/achievs/Rectangle 27.png" alt="" class="media__pict achiev__pict">
+                        <img src="img/achievs/Rectangle 27.png" alt="" class="media__pict achiev__pict viewer__accept">
                     </div>
                     <div class="media achiev">
-                        <img src="img/achievs/Rectangle 28.png" alt="" class="media__pict achiev__pict">
+                        <img src="img/achievs/Rectangle 28.png" alt="" class="media__pict achiev__pict viewer__accept">
                     </div>
                     <div class="media achiev">
-                        <img src="img/achievs/Rectangle 29.png" alt="" class="media__pict achiev__pict">
+                        <img src="img/achievs/Rectangle 29.png" alt="" class="media__pict achiev__pict viewer__accept">
                     </div>
                     <div class="media achiev">
-                        <img src="img/achievs/Rectangle 30.png" alt="" class="media__pict achiev__pict">
+                        <img src="img/achievs/Rectangle 30.png" alt="" class="media__pict achiev__pict viewer__accept">
                     </div>
                     <div class="media achiev">
-                        <img src="img/achievs/Rectangle 31.png" alt="" class="media__pict achiev__pict">
+                        <img src="img/achievs/Rectangle 31.png" alt="" class="media__pict achiev__pict viewer__accept">
                     </div>
                 </div>
             </div>
@@ -379,6 +387,7 @@
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/general.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,26 @@
+.viewer {
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 10000;
+}
+.viewer_active {
+    display: block;
+}
+.viewer__close {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 10001;
+}
+.viewer__pict {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: contain;
+}
 .welcome__dialog {
     display: flex;
     justify-content: center;
