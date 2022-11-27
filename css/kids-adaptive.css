@@ -1,0 +1,35 @@
+@media screen and (max-width: 1250px) {
+    .figures {
+        grid-template-columns: 450px;
+        grid-template-rows: repeat(4, 450px);
+        gap: 70px;
+    }
+    @keyframes triangle {
+        0% {
+            left: 50%;
+            top: 0;
+        }
+        33% {
+            left: 100%;
+            top: 99%;
+        }
+        66% {
+            left: 0;
+            top: 99%;
+        }
+        100% {
+            left: 50%;
+            top: 0;
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    .play__media {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .exercises {
+        padding-top: 85px;
+    }
+}

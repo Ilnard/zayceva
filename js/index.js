@@ -28,7 +28,6 @@ const viewerPicts = document.querySelectorAll('.viewer__accept');
 const viewer = document.querySelector('.viewer');
 const viewerPict = document.querySelector('.viewer__pict');
 const viewerClose = document.querySelector('.viewer__close');
-const body = document.getElementsByTagName('body')[0];
 
 viewerPicts.forEach(viewerPictsItem => {
   viewerPictsItem.addEventListener('click', () => {

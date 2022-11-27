@@ -37,10 +37,16 @@
     grid-template-rows: 450px 450px;
     gap: 110px;
     justify-content: center;
+    padding-bottom: 10px;
 }
 .figure {
     display: inline-block;
     position: relative;
+}
+.circle {
+    animation-name: ellipse;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
 }
 .eye-circle {
     width: 20px;
@@ -48,6 +54,8 @@
     background: red;
     border-radius: 50%;
     position: absolute;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
 }
 .eye-circle_square, .eye-circle_zigzag {
     left: 0;
@@ -58,4 +66,92 @@
     left: 50%;
     top: 0;
     transform: translate(-50%, -50%);
+}
+.eye-circle_square {
+    animation-name: square;
+}
+.eye-circle_zigzag {
+    animation-name: zigzag;
+}
+.eye-circle_triangle {
+    animation-name: triangle;
+}
+@keyframes square {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: 100%;
+        top: 0;
+    }
+    50% {
+        left: 100%;
+        top: 100%;
+    }
+    75% {
+        top: 100%;
+        left: 0;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+@keyframes zigzag {
+    0% {
+        left: 0;
+        top: 0;
+    }
+    25% {
+        left: 100%;
+        top: 100%;
+    }
+    50% {
+        left: 100%;
+        top: 0;
+    }
+    75% {
+        top: 100%;
+        left: 0;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
+@keyframes ellipse {
+    0% {
+        transform: rotate(0);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes triangle {
+    0% {
+        left: 50%;
+        top: 0;
+    }
+    33% {
+        left: 100%;
+        top: 86%;
+    }
+    66% {
+        left: 0;
+        top: 86%;
+    }
+    100% {
+        left: 50%;
+        top: 0;
+    }
 }

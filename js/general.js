@@ -1,5 +1,6 @@
 const burgerIcon = document.querySelector('.burger-icon');
 const nav = document.querySelector('.nav');
+const body = document.getElementsByTagName('body')[0];
 
 burgerIcon.addEventListener('click', () => {
     if (body.style.overflow == 'visible') body.style.overflow = 'hidden';
