@@ -144,6 +144,9 @@
         font-size: 24px;
         margin-bottom: 40px;
     }
+    .exercises-video {
+        grid-template-columns: 100%;
+    }
     .contact__dialog {
         margin-right: 20px;
     }
