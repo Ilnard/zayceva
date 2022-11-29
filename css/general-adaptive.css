@@ -11,13 +11,15 @@
         flex-direction: column;
         align-items: center;
     }
+    .contact__title {
+        position: relative;
+        z-index: 3;
+    }
     .contact__form {
-        top: -120px;
         max-width: 500px;
     }
     .contact__bottom {
         margin-top: -900px;
-        height: 1000px;
         background-size: cover;
         background-position: top;
     }
@@ -26,7 +28,10 @@
         justify-content: center;
     }
     .contact__bottom-content {
-        margin-top: 700px;
+        margin-top: 750px;
+    }
+    .contact__socials {
+        align-items: center;
     }
 }
 @media screen and (max-width: 1200px) {
@@ -123,7 +128,7 @@
         top: -20px;
     }
     .contact__bottom {
-        margin-top: -800px;
+        margin-top: -880px;
     }
     .contact-cloud-message {
         margin-left: -70px;
@@ -167,6 +172,9 @@
     .contact__bottom {
         margin-top: -650px;
     }
+    .contact__title_form {
+        display: none;
+    }
     .contact__form {
         padding: 40px;
         top: -20px;
@@ -177,13 +185,14 @@
     .contact-field__textarea {
         height: 130px;
     }
+    .contact__bottom-content {
+        margin-top: 520px;
+    }
 }
 @media screen and (max-width: 430px) {
     .contact__bottom {
-        height: 800px;
-    }
-    .contact__bottom-content {
-        margin-top: 540px;
+        padding-top: 670px;
+        box-sizing: content-box;
     }
     .contact__title {
         font-size: 16px;
@@ -192,17 +201,8 @@
         display: flex;
         justify-content: center;
     }
-    .contact__link {
-        width: 70px;
-        height: 70px;
-        margin-right: 10px;
-    }
-    .contact__link:last-child {
-        margin-right: 0;
-    }
-    .contact__icon {
-        width: 50px;
-        height: 50px;
+    .contact__bottom-content {
+        margin-top: 0;
     }
 }
 @media screen and (max-width: 420px) {
@@ -215,7 +215,8 @@
         top: 40px;
     }
     .contact__bottom {
-        margin-top: -550px;
+        padding-top: 570px;
+        margin-top: -520px;
     }
     .contact__form {
         padding: 20px;
