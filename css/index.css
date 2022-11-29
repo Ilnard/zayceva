@@ -234,6 +234,11 @@
     width: 25.37%;
     margin-right: 0;
 }
+.responsib {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
 .video__clouds {
     position: relative;
     height: 900px;
