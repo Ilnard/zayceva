@@ -31,6 +31,9 @@
 .play__media:last-child {
     margin-bottom: 0;
 }
+.play__pict_reverse {
+    transform: scaleX(-1);
+}
 .figures {
     display: grid;
     grid-template-columns: 450px 450px;
