@@ -28,7 +28,6 @@ input:focus, textarea:focus {
     outline: none;
 }
 body {
-    width: 100vw;
     overflow-x: hidden;
     background: url('../img/squares.svg') top / 100% auto repeat-y, #F1EEFF;;
 }

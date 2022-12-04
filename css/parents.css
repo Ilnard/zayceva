@@ -1,3 +1,6 @@
+.video {
+    padding-top: 85px;
+}
 .exercises-video {
     display: grid;
     grid-template-columns: 450px 450px;

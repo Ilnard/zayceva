@@ -14,12 +14,16 @@
     right: 50px;
     top: 50px;
     z-index: 10001;
+    cursor: pointer;
 }
 .viewer__pict {
     width: 100%;
     height: 100%;
     position: absolute;
     object-fit: contain;
+}
+.viewer__accept {
+    cursor: pointer;
 }
 .welcome__dialog {
     display: flex;
