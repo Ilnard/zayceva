@@ -47,4 +47,5 @@ products.forEach(product => {
 modalClose.addEventListener('click', () => {
     modal.classList.remove('modal-product_active');
     body.style.overflow = 'visible';
+    modalPicts.innerHTML = '';
 })
